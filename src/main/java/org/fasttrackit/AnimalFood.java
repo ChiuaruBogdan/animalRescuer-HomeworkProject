@@ -2,20 +2,21 @@ package org.fasttrackit;
 
 import java.time.LocalDateTime;
 
-public class animalFood {
+public class AnimalFood {
 
     String name;
     int price;
     int cantity;
-    java.time.LocalDateTime expirationDate;
     boolean availability;
     int energyLevel;
     String flavor;
     String type;
     String manufacturer;
 
+// *Trebuie sa pun expiration date
+    LocalDateTime createdDate;
 
-    public void setExpirationDate(LocalDateTime 2020,12,31) {
-        this.expirationDate = expirationDate;
+
+
     }
 }
