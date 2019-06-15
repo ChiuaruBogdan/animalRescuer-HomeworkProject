@@ -1,6 +1,6 @@
 package org.fasttrackit;
 
-public class animalToy {
+public class AnimalToy {
 
     String name;
     double price;

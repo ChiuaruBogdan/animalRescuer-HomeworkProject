@@ -6,7 +6,7 @@ public class AnimalFood {
 
     String name;
     int price;
-    int cantity;
+    int amount;
     boolean availability;
     int energyLevel;
     String flavor;
@@ -14,9 +14,12 @@ public class AnimalFood {
     String manufacturer;
 
 // *Trebuie sa pun expiration date
-    LocalDateTime createdDate;
 
+    LocalDateTime expirationDate;
 
+    public static void main(String[] args) {
+    LocalDateTime expirationDate = LocalDateTime.of(2020,10, 8,8,10,2);
 
+        System.out.println("expirationDate");
     }
 }

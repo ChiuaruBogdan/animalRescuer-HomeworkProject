@@ -35,11 +35,11 @@ public class App
         rescuer.favoriteActivity = "running";
 
 
-        animalFood animalFood = new animalFood();
+        AnimalFood animalFood = new AnimalFood();
         animalFood.name = "Bones";
-        animalFood.cantity = 5;
+        animalFood.amount = 5;
         animalFood.availability = true;
-        animalFood.expirationDate = setYear(LocalDate.of(2020,12,31));
+        animalFood.expirationDate = LocalDateTime.of(2020,10,8,8,10,2);
         animalFood.price = 50;
         animalFood.energyLevel = 6;
         animalFood.flavor = "tasty";
